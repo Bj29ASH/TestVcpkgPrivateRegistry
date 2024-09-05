@@ -1,16 +1,12 @@
 {
-  "default-registry": {
-    "kind": "git",
-    "baseline": "7476f0d4e77d3333fbb249657df8251c28c4faae",
-    "repository": "https://github.com/microsoft/vcpkg"
-  },
+  "default-registry": null,
   "registries": [
     {
       "kind": "git",
       "repository": "https://github.com/Bj29ASH/DemoVcpkgRegistry",
       "reference": "main",
-      "baseline": "e405c8f6df38011db11fa17415bf34a5a734b2c1",
-      "packages": [ "demo-vcpkg-lib" ]
+      "baseline": "503b37d22645e393179edd9ffdff6cac16c4f4e6",
+      "packages": [ "demo-vcpkg-lib", "vcpkg-cmake" ]
     }
   ]
 }

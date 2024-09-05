@@ -1,5 +1,6 @@
 {
   "dependencies": [
-    "demo-vcpkg-lib"
+    "demo-vcpkg-lib",
+    "vcpkg-cmake"
   ]
 }

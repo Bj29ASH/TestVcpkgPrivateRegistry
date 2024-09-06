@@ -5,7 +5,7 @@
       "kind": "git",
       "repository": "https://github.com/Bj29ASH/DemoVcpkgRegistry",
       "reference": "main",
-      "baseline": "a8c37666c45c97dad89d32d4eef45f68fe99a1b2",
+      "baseline": "107bd38b83a18127aee5f2bb12df859b61c6cc52",
       "packages": [
         "demo-vcpkg-lib",
         "vcpkg-cmake",
@@ -23,7 +23,12 @@
         "vcpkg-cmake-get-vars",
         "vcpkg-pkgconfig-get-modules",
         "zlib",
-        "zstd"
+        "zstd",
+        "brotli",
+        "bzip2",
+        "vcpkg-tool-meson",
+        "vcpkg-cmake-config",
+        "pkgconf"
       ]
     }
   ]

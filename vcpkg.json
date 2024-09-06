@@ -15,6 +15,11 @@
     "vcpkg-cmake-get-vars",
     "vcpkg-pkgconfig-get-modules",
     "zlib",
-    "zstd"
+    "zstd",
+    "brotli",
+    "bzip2",
+    "vcpkg-tool-meson",
+    "vcpkg-cmake-config",
+    "pkgconf"
   ]
 }

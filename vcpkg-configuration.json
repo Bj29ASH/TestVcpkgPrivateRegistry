@@ -5,8 +5,26 @@
       "kind": "git",
       "repository": "https://github.com/Bj29ASH/DemoVcpkgRegistry",
       "reference": "main",
-      "baseline": "503b37d22645e393179edd9ffdff6cac16c4f4e6",
-      "packages": [ "demo-vcpkg-lib", "vcpkg-cmake" ]
+      "baseline": "a8c37666c45c97dad89d32d4eef45f68fe99a1b2",
+      "packages": [
+        "demo-vcpkg-lib",
+        "vcpkg-cmake",
+        "qt5-base",
+        "double-conversion",
+        "egl-registry",
+        "freetype",
+        "harfbuzz",
+        "libjpeg-turbo",
+        "libpng",
+        "openssl",
+        "pcre2",
+        "sqlite3",
+        "vcpkg-cmake-config",
+        "vcpkg-cmake-get-vars",
+        "vcpkg-pkgconfig-get-modules",
+        "zlib",
+        "zstd"
+      ]
     }
   ]
 }

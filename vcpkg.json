@@ -20,6 +20,7 @@
     "bzip2",
     "vcpkg-tool-meson",
     "vcpkg-cmake-config",
-    "pkgconf"
+    "pkgconf",
+    "simdis"
   ]
 }

@@ -5,7 +5,7 @@
       "kind": "git",
       "repository": "https://github.com/Bj29ASH/DemoVcpkgRegistry",
       "reference": "main",
-      "baseline": "107bd38b83a18127aee5f2bb12df859b61c6cc52",
+      "baseline": "e9c93fed23ac1d306f968e4bb69c038b639a8acf",
       "packages": [
         "demo-vcpkg-lib",
         "vcpkg-cmake",
@@ -28,7 +28,8 @@
         "bzip2",
         "vcpkg-tool-meson",
         "vcpkg-cmake-config",
-        "pkgconf"
+        "pkgconf",
+        "simdis"
       ]
     }
   ]

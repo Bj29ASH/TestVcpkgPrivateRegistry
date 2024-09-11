@@ -6,6 +6,7 @@
 #include <geographiclib/GeographicLib/Accumulator.hpp>
 #include <mapbox/polylabel.hpp>
 #include <mapbox/variant.hpp>
+#include <easy/profiler.h>
 
 int main(int argc, char** argv) {
   QApplication app(argc, argv);
@@ -15,6 +16,8 @@ int main(int argc, char** argv) {
 
   simCore::Vec3 tmp{};
   GeographicLib::Accumulator<double> acc{};
+
+  profiler::color_t color{};
 
   return app.exec();
 }

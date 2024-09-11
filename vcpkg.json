@@ -25,6 +25,7 @@
     "geographiclib",
     "polylabel",
     "geometryhpp",
-    "variant"
+    "variant",
+    "easy-profiler"
   ]
 }

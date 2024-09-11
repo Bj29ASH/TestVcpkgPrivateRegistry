@@ -26,6 +26,7 @@
     "polylabel",
     "geometryhpp",
     "variant",
-    "easy-profiler"
+    "easy-profiler",
+    "imgui"
   ]
 }

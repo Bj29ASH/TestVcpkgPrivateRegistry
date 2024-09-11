@@ -5,7 +5,7 @@
       "kind": "git",
       "repository": "https://github.com/Bj29ASH/DemoVcpkgRegistry",
       "reference": "main",
-      "baseline": "169e50a38da63cf3acdeaefa34237fb734cbb1f7",
+      "baseline": "ee963930d83f0399b41a931e6b4992ac38ba9616",
       "packages": [
         "demo-vcpkg-lib",
         "vcpkg-cmake",
@@ -33,7 +33,8 @@
         "polylabel",
         "geometryhpp",
         "variant",
-        "easy-profiler"
+        "easy-profiler",
+        "imgui"
       ]
     }
   ]

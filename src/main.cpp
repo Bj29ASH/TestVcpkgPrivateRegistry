@@ -7,6 +7,7 @@
 #include <mapbox/polylabel.hpp>
 #include <mapbox/variant.hpp>
 #include <easy/profiler.h>
+#include <BaseGui.h>
 
 int main(int argc, char** argv) {
   QApplication app(argc, argv);
@@ -18,6 +19,7 @@ int main(int argc, char** argv) {
   GeographicLib::Accumulator<double> acc{};
 
   profiler::color_t color{};
+  GUI::BaseGui* gui{}; // imgui
 
   return app.exec();
 }

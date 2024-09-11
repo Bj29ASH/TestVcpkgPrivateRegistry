@@ -11,6 +11,7 @@ find_package(polylabel)
 find_package(geometryhpp)
 find_package(variant)
 find_package(easy-profiler)
+find_package(imgui)
 
 add_executable(TestVcpkgLib src/main.cpp)
 target_link_libraries(TestVcpkgLib PRIVATE
@@ -24,4 +25,5 @@ target_link_libraries(TestVcpkgLib PRIVATE
   geometryhpp::geometryhpp
   variant::variant
   easy-profiler::easy-profiler
+  imgui::imgui
 )

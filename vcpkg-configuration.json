@@ -5,7 +5,7 @@
       "kind": "git",
       "repository": "https://github.com/Bj29ASH/DemoVcpkgRegistry",
       "reference": "main",
-      "baseline": "e9c93fed23ac1d306f968e4bb69c038b639a8acf",
+      "baseline": "e56975856165e245a2c13cc82c6b9dc3ea5de075",
       "packages": [
         "demo-vcpkg-lib",
         "vcpkg-cmake",
@@ -29,7 +29,8 @@
         "vcpkg-tool-meson",
         "vcpkg-cmake-config",
         "pkgconf",
-        "simdis"
+        "simdis",
+        "geographiclib"
       ]
     }
   ]

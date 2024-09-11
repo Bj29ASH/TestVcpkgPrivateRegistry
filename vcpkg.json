@@ -21,6 +21,7 @@
     "vcpkg-tool-meson",
     "vcpkg-cmake-config",
     "pkgconf",
-    "simdis"
+    "simdis",
+    "geographiclib"
   ]
 }

@@ -3,6 +3,7 @@
 #include <QApplication>
 #include <QDebug>
 #include <simCore/Calc/Angle.h>
+#include <geographiclib/GeographicLib/Accumulator.hpp>
 
 int main(int argc, char** argv) {
   QApplication app(argc, argv);
@@ -11,6 +12,8 @@ int main(int argc, char** argv) {
   qDebug() << "result is " << res;
 
   simCore::Vec3 tmp{};
+
+  GeographicLib::Accumulator<double> acc{};
 
   return app.exec();
 }

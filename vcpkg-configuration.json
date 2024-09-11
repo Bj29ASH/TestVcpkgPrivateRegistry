@@ -5,7 +5,7 @@
       "kind": "git",
       "repository": "https://github.com/Bj29ASH/DemoVcpkgRegistry",
       "reference": "main",
-      "baseline": "e56975856165e245a2c13cc82c6b9dc3ea5de075",
+      "baseline": "e908fa7511875fc678bf2e372d4e304e4cb1bfa3",
       "packages": [
         "demo-vcpkg-lib",
         "vcpkg-cmake",
@@ -27,10 +27,12 @@
         "brotli",
         "bzip2",
         "vcpkg-tool-meson",
-        "vcpkg-cmake-config",
         "pkgconf",
         "simdis",
-        "geographiclib"
+        "geographiclib",
+        "polylabel",
+        "geometryhpp",
+        "variant"
       ]
     }
   ]

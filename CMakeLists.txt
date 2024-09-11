@@ -7,6 +7,9 @@ find_package(Qt5 CONFIG COMPONENTS Widgets Core Gui)
 find_package(simdis)
 find_package(simdis_3rd_party)
 find_package(geographiclib)
+find_package(polylabel)
+find_package(geometryhpp)
+find_package(variant)
 
 add_executable(TestVcpkgLib src/main.cpp)
 target_link_libraries(TestVcpkgLib PRIVATE
@@ -16,4 +19,7 @@ target_link_libraries(TestVcpkgLib PRIVATE
   simdis::simdis
   simdis_3rd_party::simdis_3rd_party
   geographiclib::geographiclib
+  polylabel::polylabel
+  geometryhpp::geometryhpp
+  variant::variant
 )

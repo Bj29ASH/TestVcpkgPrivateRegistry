@@ -22,6 +22,9 @@
     "vcpkg-cmake-config",
     "pkgconf",
     "simdis",
-    "geographiclib"
+    "geographiclib",
+    "polylabel",
+    "geometryhpp",
+    "variant"
   ]
 }

@@ -5,7 +5,7 @@
       "kind": "git",
       "repository": "https://github.com/Bj29ASH/DemoVcpkgRegistry",
       "reference": "main",
-      "baseline": "0832dad98cbe1bef4bd34788a16ce330003c6b8f",
+      "baseline": "ed723c68ebdac67243bcd7db6ca0b7e37f5739ee",
       "packages": [
         "demo-vcpkg-lib",
         "vcpkg-cmake",

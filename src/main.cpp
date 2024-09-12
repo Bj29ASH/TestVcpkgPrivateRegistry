@@ -8,6 +8,9 @@
 #include <mapbox/variant.hpp>
 #include <easy/profiler.h>
 #include <BaseGui.h>
+#include <vlcQt/VLCQtCore/Audio.h>
+#include <vlcQt/VLCQtCore/Common.h>
+#include <KDReports/KDReports.h>
 
 int main(int argc, char** argv) {
   QApplication app(argc, argv);
@@ -20,6 +23,9 @@ int main(int argc, char** argv) {
 
   profiler::color_t color{};
   GUI::BaseGui* gui{}; // imgui
+
+  VlcCommon::setPluginPath("");
+  //KDReports::Report report{};
 
   return app.exec();
 }

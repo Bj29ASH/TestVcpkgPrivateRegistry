@@ -5,11 +5,24 @@
       "kind": "git",
       "repository": "https://github.com/Bj29ASH/DemoVcpkgRegistry",
       "reference": "main",
-      "baseline": "ee963930d83f0399b41a931e6b4992ac38ba9616",
+      "baseline": "0832dad98cbe1bef4bd34788a16ce330003c6b8f",
       "packages": [
         "demo-vcpkg-lib",
         "vcpkg-cmake",
         "qt5-base",
+        "qt5-charts",
+        "qt5-activeqt",
+        "qt5-declarative",
+        "qt5-graphicaleffects",
+        "qt5-multimedia",
+        "qt5-imageformats",
+        "qt5-networkauth",
+        "qt5-quickcontrols",
+        "qt5-quickcontrols2",
+        "qt5-svg",
+        "qt5-tools",
+        "qt5-translations",
+        "qt5-websockets",
         "double-conversion",
         "egl-registry",
         "freetype",
@@ -34,7 +47,12 @@
         "geometryhpp",
         "variant",
         "easy-profiler",
-        "imgui"
+        "imgui",
+        "vlcqt",
+        "kd-reports",
+        "libwebp",
+        "tiff",
+        "liblzma"
       ]
     }
   ]

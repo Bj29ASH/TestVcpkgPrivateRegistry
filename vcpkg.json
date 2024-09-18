@@ -48,6 +48,7 @@
     "liblzma",
     "expat",
     "gps-babel",
-    "kd-single-application"
+    "kd-single-application",
+    "gtest"
   ]
 }

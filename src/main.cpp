@@ -14,6 +14,8 @@
 #include <expat/expat.h>
 #include <GPSBabel/BabelExport.h>
 #include <kdsingleapplication.h>
+#include <gtest/gtest.h>
+#include <gmock/gmock.h>
 
 int main(int argc, char** argv) {
   QApplication app(argc, argv);

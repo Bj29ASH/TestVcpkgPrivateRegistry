@@ -17,6 +17,7 @@ find_package(kd-reports REQUIRED)
 find_package(expat CONFIG REQUIRED)
 find_package(GPSBabel REQUIRED)
 find_package(KDSingleApplication REQUIRED)
+find_package(gtest REQUIRED)
 
 add_executable(TestVcpkgLib src/main.cpp)
 target_link_libraries(TestVcpkgLib PRIVATE
@@ -44,4 +45,5 @@ target_link_libraries(TestVcpkgLib PRIVATE
   expat::expat
   GPSBabel::GPSBabel
   KDSingleApplication::KDSingleApplication
+  gtest::gtest
 )

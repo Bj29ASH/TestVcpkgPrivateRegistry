@@ -47,6 +47,7 @@
     "tiff",
     "liblzma",
     "expat",
-    "gps-babel"
+    "gps-babel",
+    "kd-single-application"
   ]
 }

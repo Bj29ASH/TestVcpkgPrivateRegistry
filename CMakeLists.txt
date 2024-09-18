@@ -16,6 +16,7 @@ find_package(vlcQt REQUIRED)
 find_package(kd-reports REQUIRED)
 find_package(expat CONFIG REQUIRED)
 find_package(GPSBabel REQUIRED)
+find_package(KDSingleApplication REQUIRED)
 
 add_executable(TestVcpkgLib src/main.cpp)
 target_link_libraries(TestVcpkgLib PRIVATE
@@ -42,4 +43,5 @@ target_link_libraries(TestVcpkgLib PRIVATE
   kd-reports::kd-reports
   expat::expat
   GPSBabel::GPSBabel
+  KDSingleApplication::KDSingleApplication
 )

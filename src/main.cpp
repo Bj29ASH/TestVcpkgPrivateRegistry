@@ -13,6 +13,7 @@
 #include <KDReports/KDReports.h>
 #include <expat/expat.h>
 #include <GPSBabel/BabelExport.h>
+#include <kdsingleapplication.h>
 
 int main(int argc, char** argv) {
   QApplication app(argc, argv);
@@ -29,7 +30,7 @@ int main(int argc, char** argv) {
   VlcCommon::setPluginPath("");
   //KDReports::Report report{};
 
-  BabelExport::WriteFile({}, {}, {}, {});
+  //BabelExport::WriteFile({}, {}, {}, {});
 
   return app.exec();
 }

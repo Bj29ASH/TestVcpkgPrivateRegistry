@@ -11,6 +11,8 @@
 #include <vlcQt/VLCQtCore/Audio.h>
 #include <vlcQt/VLCQtCore/Common.h>
 #include <KDReports/KDReports.h>
+#include <expat/expat.h>
+#include <GPSBabel/BabelExport.h>
 
 int main(int argc, char** argv) {
   QApplication app(argc, argv);
@@ -26,6 +28,8 @@ int main(int argc, char** argv) {
 
   VlcCommon::setPluginPath("");
   //KDReports::Report report{};
+
+  BabelExport::WriteFile({}, {}, {}, {});
 
   return app.exec();
 }

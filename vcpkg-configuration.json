@@ -5,7 +5,7 @@
       "kind": "git",
       "repository": "https://github.com/Bj29ASH/DemoVcpkgRegistry",
       "reference": "main",
-      "baseline": "ed723c68ebdac67243bcd7db6ca0b7e37f5739ee",
+      "baseline": "90b9687705b330c111ff231608b23214d43679e2",
       "packages": [
         "demo-vcpkg-lib",
         "vcpkg-cmake",
@@ -52,7 +52,9 @@
         "kd-reports",
         "libwebp",
         "tiff",
-        "liblzma"
+        "liblzma",
+        "expat",
+        "gps-babel"
       ]
     }
   ]

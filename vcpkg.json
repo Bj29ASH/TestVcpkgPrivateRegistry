@@ -45,6 +45,8 @@
     "kd-reports",
     "libwebp",
     "tiff",
-    "liblzma"
+    "liblzma",
+    "expat",
+    "gps-babel"
   ]
 }

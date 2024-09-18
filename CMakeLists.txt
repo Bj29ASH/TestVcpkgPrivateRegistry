@@ -4,16 +4,18 @@ set(CMAKE_CXX_STANDARD 17)
 
 find_package(DemoAdd CONFIG REQUIRED)
 find_package(Qt5 CONFIG COMPONENTS Widgets Core Gui Quick OpenGL Sql PrintSupport Multimedia MultimediaWidgets Xml)
-find_package(simdis)
-find_package(simdis_3rd_party)
-find_package(geographiclib)
-find_package(polylabel)
-find_package(geometryhpp)
-find_package(variant)
-find_package(easy-profiler)
-find_package(imgui)
-find_package(vlcQt)
-find_package(kd-reports)
+find_package(simdis REQUIRED)
+find_package(simdis_3rd_party REQUIRED)
+find_package(geographiclib REQUIRED)
+find_package(polylabel REQUIRED)
+find_package(geometryhpp REQUIRED)
+find_package(variant REQUIRED)
+find_package(easy-profiler REQUIRED)
+find_package(imgui REQUIRED)
+find_package(vlcQt REQUIRED)
+find_package(kd-reports REQUIRED)
+find_package(expat CONFIG REQUIRED)
+find_package(GPSBabel REQUIRED)
 
 add_executable(TestVcpkgLib src/main.cpp)
 target_link_libraries(TestVcpkgLib PRIVATE
@@ -38,4 +40,6 @@ target_link_libraries(TestVcpkgLib PRIVATE
   imgui::imgui
   vlcQt::vlcQt
   kd-reports::kd-reports
+  expat::expat
+  GPSBabel::GPSBabel
 )

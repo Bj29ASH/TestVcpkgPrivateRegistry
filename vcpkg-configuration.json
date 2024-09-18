@@ -5,7 +5,7 @@
       "kind": "git",
       "repository": "https://github.com/Bj29ASH/DemoVcpkgRegistry",
       "reference": "main",
-      "baseline": "b5e8d847a28cf94bd967a5bc50d9ad32a60585b8",
+      "baseline": "e3e371b22bb30835957a0804ed360338b60a9fb8",
       "packages": [
         "demo-vcpkg-lib",
         "vcpkg-cmake",
@@ -56,7 +56,8 @@
         "expat",
         "gps-babel",
         "kd-single-application",
-        "gtest"
+        "gtest",
+        "spdlog"
       ]
     }
   ]

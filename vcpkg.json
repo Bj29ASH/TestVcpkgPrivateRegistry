@@ -49,6 +49,7 @@
     "expat",
     "gps-babel",
     "kd-single-application",
-    "gtest"
+    "gtest",
+    "spdlog"
   ]
 }

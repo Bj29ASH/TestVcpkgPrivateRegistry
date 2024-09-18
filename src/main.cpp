@@ -16,6 +16,7 @@
 #include <kdsingleapplication.h>
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
+#include <spdlog/spdlog/logger.h>
 
 int main(int argc, char** argv) {
   QApplication app(argc, argv);
@@ -33,6 +34,8 @@ int main(int argc, char** argv) {
   //KDReports::Report report{};
 
   //BabelExport::WriteFile({}, {}, {}, {});
+
+  spdlog::logger* logger{};
 
   return app.exec();
 }

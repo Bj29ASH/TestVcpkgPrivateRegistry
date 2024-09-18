@@ -18,6 +18,7 @@ find_package(expat CONFIG REQUIRED)
 find_package(GPSBabel REQUIRED)
 find_package(KDSingleApplication REQUIRED)
 find_package(gtest REQUIRED)
+find_package(spdlog REQUIRED)
 
 add_executable(TestVcpkgLib src/main.cpp)
 target_link_libraries(TestVcpkgLib PRIVATE
@@ -46,4 +47,5 @@ target_link_libraries(TestVcpkgLib PRIVATE
   GPSBabel::GPSBabel
   KDSingleApplication::KDSingleApplication
   gtest::gtest
+  spdlog::spdlog
 )
